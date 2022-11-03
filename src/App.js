@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Typography, Stack } from '@mui/material';
+import FileUpload from './components/FileUploader';
+import theme from './styles/theme';
+
+
+const main = { minHeight: '100vh', backgroundColor: '#F6FBFC', color: '#212529', fontFamily: 'Monsterrat', fontWeight: 600, lineHeight: '35px' }
+const content = {padding: theme.spacing(5)}
+const title = {wordSpacing: '-16px'}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack sx={main}
+      justifyContent="start"
+      alignItems="center" 
+      spacing={5}
+    >
+      <Stack direction='row' spacing={3} sx={content}>
+       <Box
+          component="img"
+          sx={{
+            height: 60,
+            width: 50,
+          }}
+          src="/risika-shield.svg"
+        />
+        <Typography variant='h3' sx={title}>
+        Risi Docs
+      </Typography>
+      </Stack>
+      <FileUpload />
+    </Stack>
   );
 }
 

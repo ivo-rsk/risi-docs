@@ -1,0 +1,35 @@
+{
+    "financial_figures": {
+        "2019": {
+            "Administrationsomkostninger wo": 55048,
+            "Af og nedskrivninger af materielle og immaterielle anlægsaktiver": 230364,
+            "Andre driftsomkostninger": 5490,
+            "Bruttoresultat": 1522815,
+            "Finansielle indtægter": 0,
+            "Finansielle omkostninger": 29284,
+            "Lokale omkostninger Q": 35678,
+            "Nettoomsætning": 2241343,
+            "Omkostninger til råvarer og hjælpematerialer Andre driftsindtægter won . .": 1800,
+            "Personaleomkostninger Salgsomkostninger Varevognens driftsudgifter On BR . . . .": 444361,
+            "Personlig indkomst": 719653,
+            "Resultat af primær drift": 808937,
+            "ÅRETS RESULTAT": 779653
+        },
+        "2020": {
+            "Administrationsomkostninger wo": 79903,
+            "Af og nedskrivninger af materielle og immaterielle anlægsaktiver": 150633,
+            "Andre driftsomkostninger": 2697,
+            "Bruttoresultat": 1769085,
+            "Finansielle indtægter": 6013,
+            "Finansielle omkostninger": 26670,
+            "Lokale omkostninger Q": 37643,
+            "Nettoomsætning": 2536364,
+            "Omkostninger til råvarer og hjælpematerialer Andre driftsindtægter won . .": 720328,
+            "Personaleomkostninger Salgsomkostninger Varevognens driftsudgifter On BR . . . .": 7069,
+            "Personlig indkomst": 1040861,
+            "Resultat af primær drift": 1061518,
+            "ÅRETS RESULTAT": 1040861
+        }
+    },
+    "unit": "kr."
+}
