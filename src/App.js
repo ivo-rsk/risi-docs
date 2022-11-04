@@ -14,7 +14,7 @@ function App() {
       alignItems="center" 
       spacing={5}
     >
-      <Stack direction='row' spacing={3} sx={content}>
+      <Stack direction='row' spacing={1} sx={content}>
        <Box
           component="img"
           sx={{
@@ -23,9 +23,7 @@ function App() {
           }}
           src="/risika-shield.svg"
         />
-        <Typography variant='h3' sx={title}>
-        Risi Docs
-      </Typography>
+        <Typography variant='h3' sx={title}> Risi Docs</Typography>
       </Stack>
       <FileUpload />
     </Stack>
