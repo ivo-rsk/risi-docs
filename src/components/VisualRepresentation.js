@@ -47,7 +47,7 @@ const VisualRepresentation = ({ response, title }) => {
         <Typography variant='h5' sx={fileTitle}>{title}</Typography>
         {/* <Button variant="outlined" onClick={downloadFn}>Download</Button> */}
 
-        {Object.keys(data).sort((a, b) => parseInt(b) - parseInt(a)).map(year => (<Box key={year}>
+        {Object.keys(data).map(year => (<Box key={year}>
             <Typography variant='h6' sx={yearSectionTitle}>{year}</Typography>
             <Stack sx={yearSection} justifyContent='flex-start'>
                 {Object.entries(data[year]).map(([key, value]) =>
